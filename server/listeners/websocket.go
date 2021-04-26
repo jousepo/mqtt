@@ -77,6 +77,8 @@ func (ws *wsConn) Close() error {
 
 // NewWebsocket initialises and returns a new Websocket listener, listening on an address.
 func NewWebsocket(id, address string) *Websocket {
+	wsUpgrader.CheckOrigin = func(r *http.Request) bool { return true }
+
 	return &Websocket{
 		id:      id,
 		address: address,
