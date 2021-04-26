@@ -4,8 +4,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/mochi-co/mqtt/server/listeners/auth"
-	"github.com/mochi-co/mqtt/server/system"
+	"github.com/jousepo/mqtt/server/listeners/auth"
+	"github.com/jousepo/mqtt/server/system"
 )
 
 // Config contains configuration values for a listener.

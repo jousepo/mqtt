@@ -9,14 +9,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mochi-co/mqtt/server/internal/circ"
-	"github.com/mochi-co/mqtt/server/internal/clients"
-	"github.com/mochi-co/mqtt/server/internal/packets"
-	"github.com/mochi-co/mqtt/server/internal/topics"
-	"github.com/mochi-co/mqtt/server/listeners"
-	"github.com/mochi-co/mqtt/server/listeners/auth"
-	"github.com/mochi-co/mqtt/server/persistence"
-	"github.com/mochi-co/mqtt/server/system"
+	"github.com/jousepo/mqtt/server/internal/circ"
+	"github.com/jousepo/mqtt/server/internal/clients"
+	"github.com/jousepo/mqtt/server/internal/packets"
+	"github.com/jousepo/mqtt/server/internal/topics"
+	"github.com/jousepo/mqtt/server/listeners"
+	"github.com/jousepo/mqtt/server/listeners/auth"
+	"github.com/jousepo/mqtt/server/persistence"
+	"github.com/jousepo/mqtt/server/system"
 )
 
 const (

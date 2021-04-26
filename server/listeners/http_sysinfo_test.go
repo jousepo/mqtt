@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mochi-co/mqtt/server/listeners/auth"
-	"github.com/mochi-co/mqtt/server/system"
+	"github.com/jousepo/mqtt/server/listeners/auth"
+	"github.com/jousepo/mqtt/server/system"
 	"github.com/stretchr/testify/require"
 )
 
